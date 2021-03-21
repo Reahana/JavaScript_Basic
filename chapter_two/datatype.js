@@ -14,7 +14,15 @@ var nn = Number(45.4)  // Number is an object here
 // console.log(1/0)  // Infinity
 // console.log('abc'* 2); // NaN
 
-//Hexadecimal
+//Hexadecimal  ====> Base 16
+
+var hex = 0Xff
+console.log(hex);
+
+//Octal =====> Base 8
+
+var oct = 0756
+console.log(oct);
 
 // ***** String *****
 var str1 = 'String'
