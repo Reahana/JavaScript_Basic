@@ -58,5 +58,6 @@ var xyz = null
 // Array
 // Object
 // Function
+//Functions are core blocks od any programming language
 
 
