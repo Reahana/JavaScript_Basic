@@ -63,13 +63,29 @@ until The condition becomes False.
 //     i++
 //  }
 
-var isRunning = true
-while (isRunning) {
-    var rand = Math.floor(Math.random() * 10 +1 )
-    if (rand == 9) {
-        console.log('winner')
-        isRunning = false
-    } else {
-        console.log('Got ' + rand )
-    }
-}
+// var isRunning = true
+// while (isRunning) {
+//     var rand = Math.floor(Math.random() * 10 +1 )
+//     if (rand == 9) {
+//         console.log('winner')
+//         isRunning = false
+//     } else {
+//         console.log('Got ' + rand )
+//     }
+// }
+
+
+////*******************************/////
+
+
+ // ******** Do while Loops *********
+
+ var isRunning = false
+ while (isRunning) {
+     console.log('Running')
+ }
+ do{
+    console.log('Running')
+ }
+while (isRunning) 
+    
